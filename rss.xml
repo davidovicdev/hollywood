@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<item>
+			<title>Početna</title>
+			<link>http://onlyforbusiness1337.000webhostapp.com/</link>
+			<description>Hotel Hollywood</description>
+		</item>
+		<item>
+			<title>Galerija</title>
+			<link>http://onlyforbusiness1337.000webhostapp.com/galerija.html</link>
+			<description>Galerija slika</description>
+		</item>
+		<item>
+			<title>Cene</title>
+			<link>http://onlyforbusiness1337.000webhostapp.com/cene.html</link>
+			<description>Cene</description>
+		</item>
+		<item>
+			<title>Kontakt</title>
+			<link>http://onlyforbusiness1337.000webhostapp.com/kontakt.html</link>
+			<description>Kontakt</description>
+		</item>
+		<item>
+			<title>O Autoru</title>
+			<link>http://onlyforbusiness1337.000webhostapp.com/oautoru.html</link>
+			<description>O Autoru</description>
+		</item>
+	</channel>
+</rss>

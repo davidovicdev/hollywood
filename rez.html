@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Matija Davidović" />
+		<title>Cene</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="icon" href="img/euro.png" />
+	</head>
+	<body>
+		<div id="okvir3">
+			<header>
+				<div id="logo">
+					<a href="index.html" title="Logo">
+						<img src="img/logo.png" alt="logo"/>
+					</a>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="index.html">Početna</a></li>
+						<li class="active"><a href="cene.html">Cene</a></li>
+						<li><a href="galerija.html">Galerija</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+						<li><a href="oautoru.html">O Autoru</a></li>
+					</ul>
+				</nav>
+				<div class="cleaner">
+				</div>
+			</header>
+			<main id="rez">
+				<h1>Rezervišite odmah!</h1>
+				<div id="ff">
+				<form action="negde.php" method="post">
+					<div class="tekst">
+						<label for="name">Ime i Prezime :</label>
+						<input type="text" name="name" placeholder="Pera Perić"/>
+					</div>
+					<div class="tekst">
+						<label for="kartica">Broj kartice:</label>
+						<input type="text" name="kartica" placeholder="12412535235"/>
+					</div>
+					<div class="tekst inline">
+						<label for="broj">Istek kartice :</label>
+						<input type="text" name="istek" placeholder="12/2018"/>
+						<label for="cvv">CVV :</label>
+						<input type="text" name="cvv" placeholder="CVC"/>
+					</div>
+					<div id="kartice">
+						<input type="radio" name="card" id="card" /><img id="mar" src="img/master.png" alt="mastercard" />
+						<input type="radio" name="card" id="card"/><img src="img/maestro.png" alt="maestrocard" />
+						<input type="radio" name="card" id="card"/><img src="img/visa.png" alt="visa" />
+						<input type="radio" name="card" id="card"/><img src="img/visae.png" alt="visae" />
+						<input type="radio" name="card" id="card"/><img src="img/paypal.png" alt="paypal" />
+					</div>
+				</form>
+				</div>
+					<a href="end.html" target="_blank" id="send">Rezervišite</a>
+			</main>
+			<footer>
+				<p>&copy; Matija Davidović 2018/19</p>
+				<div id="mreze">
+					<a href="sitemap.xml" title="Sitemap" class="fas fa-sitemap"></a>
+					<a href="rss.xml" title="RSS" class="fas fa-rss"></a>
+					<a href="https://www.facebook.com/acidgoaset" title="Facebook" target="_blank" class="fab fa-facebook-f"></a>
+					<a href="https://www.instagram.com/davidovicc.9/?hl=sr"title="Instagram"target="_blank" class="fab fa-instagram"></a>
+					<a href="https://twitter.com/login"title="Twitter"target="_blank" class="fab fa-twitter"></a>
+					<a href="https://web.whatsapp.com/"title="Whatsapp"target="_blank" class="fab fa-whatsapp"></a>
+				</div>
+				<div class="cleaner">
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
